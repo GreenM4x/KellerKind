@@ -1,5 +1,6 @@
 @import "fonts.css";
 @import "header.css";
+@import "home.css";
 
 :root {
   --textColor: #ffffff;
@@ -14,6 +15,7 @@
   padding: 0;
   list-style: none;
   text-decoration: none;
+  box-sizing: border-box;
 }
 body {
   background-color: var(--backgroundColor);
