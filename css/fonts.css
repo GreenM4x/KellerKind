@@ -1,0 +1,17 @@
+@import url("https://use.typekit.net/cnu5shu.css");
+
+h1 {
+  font-family: "ff-cocon-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--textColor);
+}
+
+p,
+a,
+li {
+  font-family: "ff-tisa-sans-web-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: var(--textColor);
+}
