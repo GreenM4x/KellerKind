@@ -9,7 +9,8 @@ h1 {
 
 p,
 a,
-li {
+li,
+h2 {
   font-family: "ff-tisa-sans-web-pro", sans-serif;
   font-weight: 400;
   font-style: normal;

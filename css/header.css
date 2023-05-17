@@ -5,7 +5,9 @@
   justify-content: space-between;
   background-color: #101010;
   height: 60px;
-  padding: 1em 5em 1em 5em;
+  padding: 1em 7em 1em 7em;
+  position: fixed;
+  width: 100vw;
 }
 
 .top-nav h1 {
@@ -78,7 +80,7 @@
 
 @media (max-width: 700px) {
   .top-nav {
-    padding: 1em;
+    padding: 3em;
   }
   .menu-button-container {
     display: flex;
@@ -102,7 +104,7 @@
   }
 
   #menu-toggle ~ .menu a:first-child {
-    margin-top: 10px;
+    margin-top: 45px;
   }
 
   #menu-toggle:checked ~ .menu a {
