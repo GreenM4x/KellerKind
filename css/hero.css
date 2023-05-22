@@ -10,7 +10,7 @@
   text-align: center;
 
   /* Background styles */
-  background-image: url("/img/bg/background_ge.png");
+  background-image: url("../img/bg/background_ge.png");
   background-size: cover;
   background-position: center 1%;
   background-repeat: no-repeat;
