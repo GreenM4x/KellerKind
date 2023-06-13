@@ -5,14 +5,21 @@
 }
 .about_content {
   width: 100rem;
-  padding: 5rem;
   background-color: yellowgreen;
 }
+/* Video */
 .trailer_vid {
   background-color: wheat;
-  height: 25rem;
+  min-height: 25rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.video {
+  width: 90%;
+  aspect-ratio: 16/9;
 }
 /* Team */
 .team {
@@ -41,4 +48,11 @@
   max-height: 100%;
 
   border-radius: 100%;
+
+  filter: grayscale(100%);
+  transition: filter 0.5s ease;
+}
+
+.pers img:hover {
+  filter: grayscale(0%);
 }
