@@ -2,8 +2,16 @@
   height: 100vh;
   display: flex;
   justify-content: center;
+  background-color: var(--backgroundColor);
 }
 .quiz_content {
   width: 100rem;
   /* background-color: burlywood; */
+}
+/* Title */
+.play_title {
+  text-align: center;
+  padding: 2rem;
+  font-size: xx-large;
+  font-family: "ff-cocon-pro", sans-serif;
 }

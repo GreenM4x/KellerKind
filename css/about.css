@@ -3,10 +3,18 @@
   display: flex;
   justify-content: center;
   /* background-color: aqua; */
+  background-color: var(--secondbackgroundColor);
 }
 .about_content {
   width: 100rem;
   /* background-color: yellowgreen; */
+}
+/* Title */
+.about_title {
+  text-align: center;
+  padding: 2rem;
+  font-size: xx-large;
+  font-family: "ff-cocon-pro", sans-serif;
 }
 /* Video */
 .trailer_vid {
@@ -52,6 +60,7 @@
 
   filter: grayscale(100%);
   transition: filter 0.5s ease;
+  margin-bottom: 1rem;
 }
 
 .pers img:hover {

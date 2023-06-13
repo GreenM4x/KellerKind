@@ -7,3 +7,10 @@
   width: 100rem;
   /* background-color: steelblue; */
 }
+/* Title */
+.play_title {
+  text-align: center;
+  padding: 2rem;
+  font-size: xx-large;
+  font-family: "ff-cocon-pro", sans-serif;
+}
