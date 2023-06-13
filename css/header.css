@@ -3,11 +3,12 @@
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
-  background-color: #101010;
+  background-color: var(--headerColor);
   height: 60px;
   padding: 1em 7em 1em 7em;
   position: fixed;
   width: 100vw;
+  z-index: 1000;
 }
 
 .top-nav h1 {

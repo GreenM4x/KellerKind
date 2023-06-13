@@ -1,0 +1,12 @@
+footer {
+  background-color: var(--secondaryColor);
+  height: 10em;
+
+  display: flex;
+  align-items: center;
+}
+footer p {
+  color: var(--textColor);
+  padding-left: 2em;
+  font-size: x-large;
+}

@@ -1,13 +1,18 @@
 @import "fonts.css";
 @import "header.css";
 @import "hero.css";
+@import "about.css";
+@import "play.css";
+@import "quiz.css";
+@import "footer.css";
 
 :root {
   --textColor: #ffffff;
   --backgroundColor: #131417;
   --primaryColor: #47cf73;
-  --secondaryColor: #444857;
+  --secondaryColor: #2f3139;
   --accentColor: #fee858;
+  --headerColor: #101010;
 }
 
 * {
@@ -17,6 +22,7 @@
   text-decoration: none;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  scroll-padding-top: 3em;
 }
 body {
   background-color: var(--backgroundColor);

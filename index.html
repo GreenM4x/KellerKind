@@ -13,7 +13,7 @@
     <!-- Header -->
     <section id="home">
       <header class="top-nav">
-        <h1>KellerKind</h1>
+        <h1 id="test">KellerKind</h1>
         <input id="menu-toggle" type="checkbox" />
         <label class="menu-button-container" for="menu-toggle">
           <div class="menu-button"></div>
@@ -21,53 +21,106 @@
         <ul class="menu">
           <a href="#home"><li>Home</li></a>
           <a href="#about"><li>About Us</li></a>
-          <a href=""><li>Play</li></a>
-          <a href=""><li>Quiz</li></a>
+          <a href="#play"><li>Play</li></a>
+          <a href="#quiz"><li>Quiz</li></a>
         </ul>
       </header>
     </section>
 
-    <section id="hero">
+    <section id="hero" , class="container">
       <div class="inner-hero">
         <h1>Welcome</h1>
         <h2>Gaming and Creating</h2>
-        <a href="">Start Playing</a>
+        <div class="btns">
+          <a class="playBtn" href="#play">Start Playing</a>
+          <a class="quizBtn" href="#quiz">Quiz</a>
+        </div>
+      </div>
+      <div class="slider-wrapper">
+        <div class="slider">
+          <img
+            id="slide-1"
+            src="img/bg/background_ge.png"
+            alt="Unity Editor Window, Green Element Game"
+          />
+          <img
+            id="slide-2"
+            src="img/bg/background_log.png"
+            alt="Top Down 2D Game Like old Zelda Games"
+          />
+          <img
+            id="slide-3"
+            src="img/bg/background.jpg"
+            alt="Not set Yet *WIP*"
+          />
+        </div>
+        <div class="slider-nav">
+          <a id="slide1" href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+        </div>
       </div>
     </section>
+
     <section id="about">
-      <div>
-        <h1>adsasd</h1>
+      <div class="about_content">
+        <h2>About Us</h2>
+        <div class="trailer_vid">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/ZwKhufmMxko"
+            frameborder="0"
+            allowfullscreen
+          ></iframe>
+        </div>
+        <div class="team">
+          <div class="pers num1">
+            <img src="img/team/pers1.jpeg" alt="" />
+            <h2>Max Keller</h2>
+            <p>test</p>
+          </div>
+          <div class="pers num2">
+            <img src="img/team/pers2.jpeg" alt="" />
+            <h2>Gabriel Armsturz</h2>
+            <p>test</p>
+          </div>
+          <div class="pers num3">
+            <img src="img/team/pers3.jpeg" alt="" />
+            <h2>Paul</h2>
+            <p>IT Service Dog</p>
+          </div>
+          <div class="pers num4">
+            <img src="img/team/pers4.jpeg" alt="" />
+            <h2>Pina</h2>
+            <p>IT Service Dog</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="play">
+      <div class="play_content">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illo
-          maxime tempore earum architecto! Blanditiis delectus expedita, hic
-          culpa repellat quas cumque perferendis ad quia aspernatur commodi
-          fugit saepe itaque?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illo
-          maxime tempore earum architecto! Blanditiis delectus expedita, hic
-          culpa repellat quas cumque perferendis ad quia aspernatur commodi
-          fugit saepe itaque?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illo
-          maxime tempore earum architecto! Blanditiis delectus expedita, hic
-          culpa repellat quas cumque perferendis ad quia aspernatur commodi
-          fugit saepe itaque?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illo
-          maxime tempore earum architecto! Blanditiis delectus expedita, hic
-          culpa repellat quas cumque perferendis ad quia aspernatur commodi
-          fugit saepe itaque?
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga illo
-          maxime tempore earum architecto! Blanditiis delectus expedita, hic
-          culpa repellat quas cumque perferendis ad quia aspernatur commodi
-          fugit saepe itaque?
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
+          repellendus tempore suscipit natus aperiam! Temporibus fugit tempora
+          non ab ut in eveniet ullam illo possimus. Molestias eaque consectetur
+          ad saepe.
         </p>
       </div>
     </section>
+    <section id="quiz">
+      <div class="quiz_content">
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad commodi
+          sapiente, nobis aperiam nihil quos est iste magnam dolorum! Magnam
+          harum nostrum temporibus quaerat voluptate possimus saepe debitis
+          dignissimos quisquam?
+        </p>
+      </div>
+    </section>
+    <footer>
+      <p>Made with ♡ by Max Keller</p>
+    </footer>
   </body>
 </html>
