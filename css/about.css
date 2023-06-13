@@ -2,14 +2,15 @@
   min-height: 100vh;
   display: flex;
   justify-content: center;
+  /* background-color: aqua; */
 }
 .about_content {
   width: 100rem;
-  background-color: yellowgreen;
+  /* background-color: yellowgreen; */
 }
 /* Video */
 .trailer_vid {
-  background-color: wheat;
+  /* background-color: wheat; */
   min-height: 25rem;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -28,7 +29,7 @@
   align-content: center;
   justify-content: center;
   min-height: 30rem;
-  background-color: rgb(200, 0, 255);
+  /* background-color: rgb(200, 0, 255); */
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
