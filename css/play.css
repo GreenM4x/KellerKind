@@ -23,7 +23,9 @@
   position: relative;
   margin: 2rem;
 }
-
+.screen:hover {
+  transform: scale(107%);
+}
 .screen > .screen-image {
   position: absolute;
 
