@@ -25,6 +25,11 @@
 .game_container a {
   margin: 2rem;
 }
+
+.game_container a:hover {
+  margin: 2rem;
+  transform: scale(105%);
+}
 .game {
   background-color: aqua;
   width: 250px;
