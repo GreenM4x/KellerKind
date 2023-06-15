@@ -24,3 +24,10 @@ h2 {
   font-size: xx-large;
   font-family: "ff-cocon-pro", sans-serif;
 }
+
+/* Title */
+.game_title {
+  text-align: center;
+  font-size: large;
+  font-family: "ff-cocon-pro", sans-serif;
+}
