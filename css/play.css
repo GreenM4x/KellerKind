@@ -5,30 +5,13 @@
 }
 .play_content {
   width: 100rem;
-  /* background-color: steelblue; */
 }
-
-/* .game_container {
+.game-screens {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-
-  padding-top: 3rem;
-  padding-bottom: 3rem;
+  padding: 2rem;
 }
-.game_container a {
-  margin: 2rem;
-}
-
-.game_container a:hover {
-  margin: 2rem;
-  transform: scale(105%);
-}
-.game {
-  background-color: aqua;
-  width: 250px;
-  aspect-ratio: 3/4;
-} */
 
 .screen {
   width: 250px;
@@ -38,6 +21,7 @@
   background-color: rgba(104, 217, 140, 0.75);
   overflow: hidden;
   position: relative;
+  margin: 2rem;
 }
 
 .screen > .screen-image {
