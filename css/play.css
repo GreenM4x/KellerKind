@@ -8,7 +8,7 @@
 }
 .game-screens {
   display: flex;
-  justify-content: center;
+  justify-content: space-evenly;
   flex-wrap: wrap;
   padding: 2rem;
 }
@@ -26,10 +26,9 @@
 .screen:hover {
   transform: scale(107%);
 }
-.screen > .screen-image {
+.screen > .screen-image-1 {
   position: absolute;
-
-  background-image: url(../img/play/log.png);
+  background-image: url("../img/play/log.png");
   background-size: 250%;
   height: 100%;
   width: 100%;
@@ -37,7 +36,31 @@
   filter: sepia(100%) hue-rotate(67deg);
   opacity: 0.6;
 
-  animation: pan-image 15s linear infinite;
+  animation: pan-image-1 15s linear infinite;
+}
+.screen > .screen-image-2 {
+  position: absolute;
+  background-image: url("../img/play/d.png");
+  background-size: 250%;
+  height: 100%;
+  width: 100%;
+
+  filter: sepia(100%) hue-rotate(67deg);
+  opacity: 0.6;
+
+  animation: pan-image-2 15s linear infinite;
+}
+.screen > .screen-image-3 {
+  position: absolute;
+  background-image: url("../img/play/y.png");
+  background-size: 250%;
+  height: 100%;
+  width: 100%;
+
+  filter: sepia(100%) hue-rotate(67deg);
+  opacity: 0.6;
+
+  animation: pan-image-3 15s linear infinite;
 }
 
 .screen-overlay {
@@ -56,35 +79,4 @@
   background-size: 100% 9px;
 
   animation: pan-overlay 22s infinite linear;
-}
-/* animation for image */
-@keyframes pan-image {
-  0% {
-    background-position: 0% 0%;
-  }
-  20% {
-    background-position: 15% 86%;
-  }
-  40% {
-    background-position: 33% 52%;
-  }
-  60% {
-    background-position: 10% 90%;
-  }
-  80% {
-    background-position: 77% 38%;
-  }
-  100% {
-    background-position: 0% 0%;
-  }
-}
-/* animation for lines */
-@keyframes pan-overlay {
-  from {
-    background-position: 0% 0%;
-  }
-
-  to {
-    background-position: 0% -100%;
-  }
 }
