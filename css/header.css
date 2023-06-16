@@ -84,6 +84,12 @@
   transform: rotate(-405deg);
 }
 
+.hanging-logo {
+  position: fixed;
+  z-index: 9999;
+  width: 7rem;
+}
+
 @media (max-width: 700px) {
   .top-nav {
     padding: 3em;
@@ -130,5 +136,11 @@
 
   .menu > a:hover {
     background-color: #595d6c8e;
+  }
+
+  .hanging-logo {
+    position: fixed;
+    z-index: 9999;
+    width: 5rem;
   }
 }
