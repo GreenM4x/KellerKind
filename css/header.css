@@ -88,6 +88,11 @@
   position: fixed;
   z-index: 9999;
   width: 7rem;
+  right: 10px;
+}
+
+.st2 {
+  cursor: pointer;
 }
 
 @media (max-width: 700px) {
@@ -142,5 +147,6 @@
     position: fixed;
     z-index: 9999;
     width: 5rem;
+    left: 0;
   }
 }

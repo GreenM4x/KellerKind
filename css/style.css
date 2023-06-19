@@ -7,7 +7,16 @@
 @import "footer.css";
 @import "animations.css";
 
-:root {
+:root:not(.dark) {
+  --textColor: #000000;
+  --backgroundColor: #ffffff;
+  --secondbackgroundColor: #f6f6f6;
+  --primaryColor: #47cf73;
+  --secondaryColor: #cccccc;
+  --accentColor: #fee858;
+  --headerColor: #f4f4f4;
+}
+:root.dark {
   --textColor: #ffffff;
   --backgroundColor: #131417;
   --secondbackgroundColor: #24262e;
