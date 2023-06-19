@@ -34,6 +34,8 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
   scroll-padding-top: 3em;
+
+  transition: background-color ease-out 0.2s;
 }
 body {
   background-color: var(--backgroundColor);

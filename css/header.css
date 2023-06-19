@@ -91,10 +91,6 @@
   right: 10px;
 }
 
-.st2 {
-  cursor: pointer;
-}
-
 @media (max-width: 700px) {
   .top-nav {
     padding: 3em;
