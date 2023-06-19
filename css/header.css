@@ -93,6 +93,7 @@
 
 .st2 {
   cursor: pointer;
+  border: 100%;
 }
 
 @media (max-width: 700px) {
