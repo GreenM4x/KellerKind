@@ -30,3 +30,13 @@ h2 {
   font-size: large;
   font-family: "ff-cocon-pro", sans-serif;
 }
+h3 {
+  font-family: "ff-cocon-pro", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #fff;
+}
+
+.black-text {
+  color: #000;
+}
