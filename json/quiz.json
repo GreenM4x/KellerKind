@@ -1,0 +1,65 @@
+{
+  "fragen": [
+    {
+      "aussage": "Wie Viele Spiele Hat KellerKind?",
+      "correct": "3"
+    },
+    {
+      "aussage": "Welches ist ein Spiel von KellerKind?",
+      "correct": "Drifty"
+    },
+    {
+      "aussage": "Wer ist der Gründer von KellerKind?",
+      "correct": "Max"
+    },
+    {
+      "aussage": "Wie heißen die IT-Service Dogs?",
+      "correct": "Paul & Pina"
+    }
+  ],
+  "antworten": [
+    {
+      "eins": "1",
+      "zwei": "3",
+      "drei": "4",
+      "vier": "9"
+    },
+    {
+      "eins": "Drifty",
+      "zwei": "Unity",
+      "drei": "God of war",
+      "vier": "The Legend of Zelda"
+    },
+    {
+      "eins": "Paul",
+      "zwei": "Garbiel",
+      "drei": "Max",
+      "vier": "Pina"
+    },
+    {
+      "eins": "Bruno & Anton",
+      "zwei": "Bonnie & Clyde",
+      "drei": "Bibi & Tina",
+      "vier": "Paul & Pina"
+    }
+  ],
+
+  "rueckmeldungen": [
+    {
+      "ergebnis": "sehrgut",
+      "anzeige": "– Du bist ja ein Richtiger Kenner!"
+    },
+    {
+      "ergebnis": "gut",
+      "anzeige": "– Nahe zu Perfekt!"
+    },
+    {
+      "ergebnis": "mittel",
+      "anzeige": "– Tja, etwas üben musst du noch!"
+    },
+    {
+      "ergebnis": "schlecht",
+      "anzeige": "– Da gibt es nur eins: lernen, lernen, lernen"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   justify-content: center;
 }
 .play_content {
-  width: 100rem;
+  max-width: 90vw;
 }
 .game-screens {
   display: flex;

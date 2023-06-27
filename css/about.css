@@ -6,7 +6,7 @@
   background-color: var(--secondbackgroundColor);
 }
 .about_content {
-  width: 100rem;
+  max-width: 100rem;
   /* background-color: yellowgreen; */
 }
 /* Title */

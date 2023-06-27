@@ -1,3 +1,4 @@
+("use strict");
 //Funktion Theme [Dark to light] by Clicking on the Light SVG
 const btn = document.querySelector(".light-btn");
 const btnCabel = document.querySelector(".st5");

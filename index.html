@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="favicon/favicon.svg" />
-    <script src="js/haninglight.js" defer></script>
+    <script type="module" src="js/main.js" defer></script>
     <title>KellerKind</title>
   </head>
   <body>
@@ -200,7 +200,7 @@
             <div class="screen-overlay"></div>
             <a class="screen-link"></a>
             <h3>The Legend of Gina</h3>
-            <p class="black-text">- Cumming soon -</p>
+            <p class="black-text">- Coming soon -</p>
           </div>
           <div class="screen">
             <div class="screen-image-2"></div>
@@ -266,12 +266,18 @@
     <section id="quiz">
       <div class="quiz_content">
         <h2 class="title">Quiz</h2>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad commodi
-          sapiente, nobis aperiam nihil quos est iste magnam dolorum! Magnam
-          harum nostrum temporibus quaerat voluptate possimus saepe debitis
-          dignissimos quisquam?
-        </p>
+        <div class="quiz-panel">
+          <h2 class="title">Wie gut Kennst du KellerKind ?</h1>
+          <div id="quiz-container"></div>
+          <div id="buttons">
+            <input class="quiz_btn" type="button" id="q1" value="1" />
+            <input class="quiz_btn" type="button" id="q2" value="2" />
+            <input class="quiz_btn" type="button" id="q3" value="3" />
+            <input class="quiz_btn" type="button" id="q4" value="4" />
+          </div>
+
+          <p id="ergebnis">Deine Punkte lauten: <span id="punkte"></span></p>
+        </div>
       </div>
     </section>
     <footer>
