@@ -58,13 +58,73 @@ function init() {
     function changeColor(button, correct) {
       if (correct) {
         button.classList.add("gruen");
+        changeLightColor(true);
         setTimeout(function () {
           button.classList.remove("gruen");
         }, 1000);
       } else {
+        changeLightColor(false);
         button.classList.add("rot");
         setTimeout(function () {
           button.classList.remove("rot");
+        }, 1000);
+      }
+    }
+    //Change light of the lightbulb
+    function changeLightColor(correct) {
+      const Light = document.querySelector(".light-btn");
+      const LightRay = document.querySelectorAll(".st4");
+      const doc = document.documentElement;
+
+      if (correct) {
+        Light.style.fill = "#47CF73";
+        Light.style.stroke = "#349654";
+
+        LightRay.forEach((element) => {
+          element.style.fill = "#349654";
+        });
+
+        setTimeout(function () {
+          if (doc.classList.contains("dark")) {
+            Light.style.fill = "#feea5c";
+            Light.style.stroke = "#fdd65e";
+
+            LightRay.forEach((element) => {
+              element.style.fill = "#fdd65e";
+            });
+          } else {
+            Light.style.fill = "#e0e0e0";
+            Light.style.stroke = "#c2c2c2";
+
+            LightRay.forEach((element) => {
+              element.style.fill = "#fdd65e";
+            });
+          }
+        }, 1000);
+      } else {
+        Light.style.fill = "#FE7777";
+        Light.style.stroke = "#FC5B5B";
+
+        LightRay.forEach((element) => {
+          element.style.fill = "#FC5B5B";
+        });
+
+        setTimeout(function () {
+          if (doc.classList.contains("dark")) {
+            Light.style.fill = "#feea5c";
+            Light.style.stroke = "#fdd65e";
+
+            LightRay.forEach((element) => {
+              element.style.fill = "#fdd65e";
+            });
+          } else {
+            Light.style.fill = "#e0e0e0";
+            Light.style.stroke = "#c2c2c2";
+
+            LightRay.forEach((element) => {
+              element.style.fill = "#fdd65e";
+            });
+          }
         }, 1000);
       }
     }
@@ -116,10 +176,8 @@ function init() {
     setButtonText();
 
     function controleAnswer(e) {
-      //alert("Ich wurde geklickt!");
       let wert = e.target.value;
       if (frage.correct === wert) {
-        console.log(frage.correct + "richtig");
         points = points + 10;
         punkteEintragen(points);
         changeColor(e.target, true);
@@ -137,7 +195,6 @@ function init() {
         }
         while (buttons.lastElementChild) {
           buttons.removeChild(buttons.lastElementChild);
-          //console.log(buttons);
         }
       }, 800);
 
