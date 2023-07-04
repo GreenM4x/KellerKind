@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="favicon/favicon.svg" />
-    <script src="js/main.js" defer></script>
+    <script type="module" src="js/main.js" defer></script>
     <title>KellerKind</title>
   </head>
   <body>
@@ -188,12 +188,6 @@
     <section id="play">
       <div class="play_content">
         <h2 class="title">Start Playing Now</h2>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Excepturi
-          repellendus tempore suscipit natus aperiam! Temporibus fugit tempora
-          non ab ut in eveniet ullam illo possimus. Molestias eaque consectetur
-          ad saepe.
-        </p>
         <div class="game-screens">
           <div class="screen">
             <div class="screen-image-1"></div>
@@ -231,9 +225,11 @@
         <h2 class="title">About Us</h2>
         <div class="trailer_vid">
           <iframe
-            class="video"
-            src="https://youtu.be/FZ1I3dbCPn4"
-            title="Keller Kind Trailer"
+            width="1280"
+            height="720"
+            src="https://www.youtube.com/embed/FZ1I3dbCPn4"
+            title="KellerKind  | Parodie Trailer"
+            frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
           ></iframe>
@@ -267,7 +263,7 @@
       <div class="quiz_content">
         <h2 class="title">Quiz</h2>
         <div class="quiz-panel">
-          <h2 class="title">Wie gut Kennst du KellerKind ?</h2>
+          <h2 class="title">How well do you know KellerKind?</h2>
           <div id="quiz-container"></div>
           <div id="buttons">
             <input class="quiz_btn" type="button" id="q1" value="1" />
@@ -276,7 +272,7 @@
             <input class="quiz_btn" type="button" id="q4" value="4" />
           </div>
 
-          <p id="ergebnis">Deine Punkte lauten: <span id="punkte"></span></p>
+          <p id="ergebnis">Your points are: <span id="punkte"></span></p>
         </div>
       </div>
     </section>

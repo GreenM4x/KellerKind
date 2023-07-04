@@ -1,19 +1,19 @@
 {
   "fragen": [
     {
-      "aussage": "Wie Viele Spiele Hat KellerKind?",
+      "aussage": "How many games does KellerKind have?",
       "correct": "3"
     },
     {
-      "aussage": "Welches ist ein Spiel von KellerKind?",
+      "aussage": "Which is a game by KellerKind?",
       "correct": "Drifty"
     },
     {
-      "aussage": "Wer ist der Gründer von KellerKind?",
+      "aussage": "Who is the founder of KellerKind?",
       "correct": "Max"
     },
     {
-      "aussage": "Wie heißen die IT-Service Dogs?",
+      "aussage": "What are the names of the IT-Service Dogs?",
       "correct": "Paul & Pina"
     }
   ],
@@ -47,19 +47,19 @@
   "rueckmeldungen": [
     {
       "ergebnis": "sehrgut",
-      "anzeige": "– Du bist ja ein Richtiger Kenner!"
+      "anzeige": "– You're a true expert!"
     },
     {
       "ergebnis": "gut",
-      "anzeige": "– Nahe zu Perfekt!"
+      "anzeige": "– Almost perfect!"
     },
     {
       "ergebnis": "mittel",
-      "anzeige": "– Schau dir die website vielleicht noch mal genauer an! :)"
+      "anzeige": "– Maybe take a closer look at the website! :)"
     },
     {
       "ergebnis": "schlecht",
-      "anzeige": "– Das hast du extra gemacht oder?! :("
+      "anzeige": "– Did you do that on purpose?! :("
     }
   ]
 }
