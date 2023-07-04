@@ -13,10 +13,7 @@ function init() {
   async function fetchJSON() {
     let response = await fetch("../json/quiz.json");
     if (response.status === 200) {
-      console.log(response);
       json = await response.json();
-      console.log(json);
-      console.log(typeof json);
       // Ab hier Daten verarbeiten
       quizausfuehren();
     }
@@ -31,11 +28,10 @@ function init() {
         container.removeChild(container.lastElementChild);
       }
       fragen = json.fragen;
-      //console.log(fragen);
       frage = fragen[zaehler];
-      //console.log(fragen[zaehler]);
+
       let aussage = document.createTextNode(frage.aussage);
-      //console.log(aussage);
+
       let paragraph = document.createElement("p");
       paragraph.classList.add("question");
       paragraph.appendChild(aussage);
@@ -144,7 +140,6 @@ function init() {
 
     //EventListener auf Buttons
     let btns = document.querySelectorAll(".quiz_btn");
-    //console.log(btns);
     btns.forEach((button) => button.addEventListener("click", controleAnswer));
 
     //Antworten auf Buttons
@@ -153,19 +148,15 @@ function init() {
       btns.forEach((element) => {
         switch (element.id) {
           case "q1":
-            console.log(element);
             element.value = antworten[zaehler].eins;
             break;
           case "q2":
-            console.log(element);
             element.value = antworten[zaehler].zwei;
             break;
           case "q3":
-            console.log(element);
             element.value = antworten[zaehler].drei;
             break;
           case "q4":
-            console.log(element);
             element.value = antworten[zaehler].vier;
             break;
           default:
