@@ -1,9 +1,16 @@
 <!DOCTYPE html>
 <html lang="en" class="dark">
   <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      href="node_modules/bootstrap/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+
     <link rel="stylesheet" href="css/style.css" />
     <link rel="icon" href="favicon/favicon.svg" />
     <script type="module" src="js/main.js" defer></script>
@@ -150,41 +157,68 @@
       </svg>
     </section>
 
-    <section id="hero" class="container">
-      <div class="inner-hero">
-        <h1>Welcome</h1>
-        <h2>Gaming and Creating</h2>
-        <div class="btns">
-          <a class="playBtn" href="#play">Start Playing</a>
-          <a class="quizBtn" href="#quiz">Quiz</a>
+    <!-- Hero landing -->
+    <section id="home">
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide myCarousel"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
         </div>
-      </div>
-      <div class="slider-wrapper">
-        <div class="slider">
-          <img
-            id="slide-1"
-            src="img/bg/background_ge.png"
-            alt="Unity Editor Window, Green Element Game"
-          />
-          <img
-            id="slide-2"
-            src="img/bg/background_log.png"
-            alt="Top Down 2D Game Like old Zelda Games"
-          />
-          <img
-            id="slide-3"
-            src="img/bg/background_d.png"
-            alt="Not set Yet *WIP*"
-          />
+        <div class="carousel-inner">
+          <div class="carousel-caption d-block">
+            <h1 class="hero-title">Welcome</h1>
+            <h2>Gaming and Creating</h2>
+            <div class="btns">
+              <a class="playBtn" href="#play">Start Playing</a>
+              <a class="quizBtn" href="#quiz">Quiz</a>
+            </div>
+          </div>
+          <div class="carousel-item active bg-img-1 carousel-img"></div>
+          <div class="carousel-item bg-img-2 carousel-img"></div>
+          <div class="carousel-item bg-img-3 carousel-img"></div>
         </div>
-        <div class="slider-nav">
-          <a id="slide1" href="#slide-1"></a>
-          <a href="#slide-2"></a>
-          <a href="#slide-3"></a>
-        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
     </section>
-
     <section id="play">
       <div class="play_content">
         <h2 class="title">Start Playing Now</h2>
@@ -226,9 +260,7 @@
         <div class="trailer_vid">
           <iframe
             class="video"
-            width="1280"
-            height="720"
-            src="https://www.youtube.com/embed/FZ1I3dbCPn4"
+            src="https://www.youtube.com/embed/xUy1w27dCDU"
             title="KellerKind  | Parodie Trailer"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen
@@ -276,8 +308,15 @@
         </div>
       </div>
     </section>
+
     <footer>
       <p>Made with ♡ by Max Keller</p>
     </footer>
+
+    <script
+      src="node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

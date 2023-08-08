@@ -1,6 +1,6 @@
 @import "fonts.css";
 @import "header.css";
-@import "hero.css";
+@import "carousel.css";
 @import "about.css";
 @import "play.css";
 @import "quiz.css";
@@ -40,4 +40,19 @@
 body {
   background-color: var(--backgroundColor);
   overflow-x: hidden;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  background-color: var(--backgroundColor);
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+  background-color: var(--backgroundColor);
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background-color: var(--primaryColor);
 }

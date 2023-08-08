@@ -1,0 +1,65 @@
+.bg-img-1 {
+  background-image: url("/img/bg/background_ge.png");
+}
+.bg-img-2 {
+  background-image: url("/img/bg/background_log.png");
+}
+.bg-img-3 {
+  background-image: url("/img/bg/background_d.png");
+}
+
+.carousel-img {
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.carousel-caption {
+  z-index: 100;
+  top: 30%;
+  bottom: auto;
+}
+.hero-title {
+  font-size: clamp(1rem, 1rem + 8.333vw, 10rem);
+}
+.btns {
+  padding-top: 3rem;
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.playBtn {
+  background-color: var(--backgroundColor);
+  color: var(--textColor);
+  height: 50%;
+  width: 200px;
+  border-radius: 500px;
+  margin: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.playBtn:hover {
+  color: var(--primaryColor);
+}
+
+.quizBtn {
+  background-color: var(--secondaryColor);
+  color: var(--textColor);
+  height: 50%;
+  width: 150px;
+  border-radius: 500px;
+  margin: 5px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quizBtn:hover {
+  color: var(--accentColor);
+}

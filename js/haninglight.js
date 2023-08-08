@@ -7,6 +7,7 @@ function myfunction(e) {
   const doc = document.documentElement;
   doc.classList.toggle("dark");
 
+  //If Dark -> Dark else Hell
   const svg = e.currentTarget.querySelector(".light-btn");
   if (doc.classList.contains("dark")) {
     btn.style.fill = "#feea5c";
